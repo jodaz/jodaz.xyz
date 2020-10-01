@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link';
+import Social from './social';
 
 const name = 'Jesus Ordosgoitty'
 export const siteTitle = 'Jodaz'
@@ -12,8 +13,7 @@ function Layout({children, home}) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
+          name="Hi! I'm Jesus Ordosgoitty, aka, jodaz. I'm software developer living in Venezuela."
         />
         <meta
           property="og:image"
@@ -54,6 +54,9 @@ function Layout({children, home}) {
         )}
       </header>
       <main>{children}</main>
+
+      <Social />
+
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
