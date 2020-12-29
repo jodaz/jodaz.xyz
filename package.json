@@ -3,20 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev:client": "next dev",
+    "dev:server": "nodemon server.js",
+    "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
     "build": "next build",
-    "start": "next start"
+    "start:client": "next start",
+    "start:server": "node server.js"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
     "date-fns": "^2.16.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "gray-matter": "^4.0.2",
-    "next": "9.5.2",
-    "next-i18next": "^7.0.1",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "helmet": "^4.1.1",
+    "mongoose": "^5.10.6",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "jest": "^26.4.2",
+    "next": "^10.0.4",
+    "nodemon": "^2.0.4",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
     "react-icons": "^3.11.0",
-    "remark": "^12.0.1",
-    "remark-html": "^12.0.0",
     "tailwindcss": "^2.0.2"
   }
 }

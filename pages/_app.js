@@ -1,3 +1,4 @@
+import React from 'react'
 import '../styles/global.css'
 import "tailwindcss/tailwind.css"
 import Head from 'next/head'
