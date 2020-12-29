@@ -1,17 +1,8 @@
-import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
-
 export default function Home() {
   return (
-    <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
-      <section className={utilStyles.headingMd}>
-        <p>Hi! I'm Jesus. I'm a Software Developer living in Venezuela.</p>
-      </section>
-    </Layout>
+    <section className='min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12'>
+      <p>Hi! I'm Jesus. I'm a Software Developer living in Venezuela.</p>
+    </section>
   )
 }
 
