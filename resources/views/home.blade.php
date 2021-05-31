@@ -22,8 +22,8 @@
                 </div>
                 <div class="flex menu" id="menu">
                     <a class="header-navlink" href="#about">about</a>
-                    <a class="header-navlink" href="#work">work</a>
-                    <a class="header-navlink" href="#writings">writings</a>
+                    <!-- <a class="header-navlink" href="#work">work</a>
+                    <a class="header-navlink" href="#writings">writings</a> -->
                 </div>
             </nav>
         </header>
