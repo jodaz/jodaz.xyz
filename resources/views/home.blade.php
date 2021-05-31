@@ -120,4 +120,13 @@
         </footer>
     </body>
     <script src="{{ asset('js/website/app.js') }}"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ config('custom.analytics') }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', "{{ config('custom.analytics') }}");
+    </script>
 </html>
