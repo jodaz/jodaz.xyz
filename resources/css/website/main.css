@@ -82,16 +82,11 @@ p {
       opacity: 0.8;
     }
   .social-icon {
-    font-size: 2.1rem;
-    padding: 0 0.47rem;
+    height: 2em;
+    border-radius: 5px;
+    background-color: transparent;
+    margin: 0 0.5em;
   }
-  .footer .social-icon {
-    color: var(--text);
-    transition: 0.3s;
-  }
-    .footer .social-icon:hover {
-      color: var(--light-primary-color);
-    }
   .about-social .social-icon {
     color: var(--accent-color);
     transition: 0.3s;
@@ -391,10 +386,13 @@ p {
   left: 0;
   height: 150px;
   width: 100%;
-  background-color: var(--primary-color);
-  color: var(--text);
+  color: var(--primary-text);
+  background-color: var(--text);
   z-index: 1;
 }
+  .social {
+    margin-bottom: 1em;
+  }
   .credits {
     text-align: center;
     font-size: 0.8rem;

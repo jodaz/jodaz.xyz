@@ -10,7 +10,10 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "copy-webpack-plugin": "^9.0.0",
+        "imagemin-webpack-plugin": "^2.4.2",
         "laravel-mix": "^6.0.6",
+        "laravel-mix-imagemin": "^1.0.3",
         "postcss": "^8.1.14"
     }
 }

@@ -1,4 +1,5 @@
 const mix = require('laravel-mix');
+require('laravel-mix-imagemin');
 
 /*
  |--------------------------------------------------------------------------
@@ -12,4 +13,5 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/website/app.js', 'public/js/website')
-  .postCss('resources/css/website/main.css', 'public/css/website');
+  .postCss('resources/css/website/main.css', 'public/css/website')
+  .copyDirectory('resources/assets/icons', 'public/assets/icons');

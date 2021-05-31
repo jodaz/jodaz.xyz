@@ -28,7 +28,7 @@
             </nav>
         </header>
         <main class="main">
-            <section class="home" style="background-image: url(/assets/home.jpeg)">
+            <section class="home" style="background-image: url(assets/img/home.jpeg)">
                 <div class="home-intro">
                     <h1 class="home-title">Jesus Ordosgoitty</h1>
                     <h2 class="home-subtitle">Freelance web developer</h2>
@@ -39,7 +39,7 @@
                     <h2>About me</h2>
                 </div>
                 <div class="about-photo">
-                    <img src="/assets/profile.png">
+                    <img src="{{ asset('/assets/img/profile.jpg') }}">
                 </div>
                 <div class="about-bio">
                     <p>
@@ -55,7 +55,7 @@
                     </p>
                 </div>
             </section>
-            <section class="work" id="work">
+            <!-- <section class="work" id="work">
                 <h2>My work</h2>
                 <section class="project">
                     <div>
@@ -96,21 +96,21 @@
                     <p class="post-summary">
                     </p>
                 </div>
-            </section>
+            </section> -->
         </main>
         <footer class="footer flex">
             <div class="flex social">
                 <a href="https://www.linkedin.com/in/jodaz">
-                    <i class="social-icon fab fa-linkedin"></i>
+                    <img src="{{ asset('assets/icons/linkedin.svg') }}" class="social-icon" alt="linkedin" />
                 </a>
                 <a href="https://github.com/jodaz">
-                    <i class="social-icon fab fa-github"></i>
+                    <img src="{{ asset('assets/icons/github.svg') }}" class="social-icon" alt="github" />
                 </a>
                 <a href="https://twitter.com/jodaz_">
-                    <i class="social-icon fab fa-twitter"></i>
+                    <img src="{{ asset('assets/icons/twitter.svg') }}" class="social-icon" alt="twitter" />
                 </a>
                 <a href="https://instagram.com/j0daz">
-                    <i class="social-icon fab fa-twitter"></i>
+                    <img src="{{ asset('assets/icons/instagram.svg') }}" class="social-icon" alt="instagram" />
                 </a>
             </div>
             <div class="credits">
