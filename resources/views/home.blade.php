@@ -5,11 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         {!! SEO::generate() !!}
-
-        <link rel="preload" href="{{ asset('css/website/main.css') }}" rel="stylesheet">
         <!-- Fonts -->
-        <link href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+        <link href="{{ asset('css/website/main.css') }}" rel="stylesheet">
     </head>
     <body>
         <header class="flex header header--scroll" id="header">
