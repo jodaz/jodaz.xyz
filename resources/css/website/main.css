@@ -383,8 +383,7 @@ p {
       }
 /* FOOTER */
 .footer {
-  flex-flow: row wrap;
-  position: relative;
+  flex-flow: column nowrap;
   justify-content: space-around;
   align-items: center;
   padding: 3rem 2rem;
@@ -397,6 +396,7 @@ p {
   z-index: 1;
 }
   .credits {
+    text-align: center;
     font-size: 0.8rem;
     font-weight: 300;
     letter-spacing: 1px;
@@ -437,9 +437,6 @@ p {
         opacity: 0.97;
         background-color: unset;
       }
-  .main {
-    margin-bottom: 150px;
-  }
   .home {
     background-attachment: fixed;
   }
@@ -465,7 +462,7 @@ p {
     word-wrap: break-word;
   }
   .footer {
-    position: fixed;
+    position: relative;
     padding-top: 2em;
   }
     .credits {

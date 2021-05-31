@@ -83,7 +83,7 @@
             </section>
             <section class="flex writings" id="writings">
                 <div class="writings-title">
-                    <h2>My lates blog posts</h2>
+                    <h2>Latest articles</h2>
                 </div>
                 <div class="writings-post">
                     <a class="post-link" href="https://medium.com/@jesuodz/building-a-timestamp-microservice-71a1645f09d9" target="_blank">
@@ -100,18 +100,23 @@
         </main>
         <footer class="footer flex">
             <div class="flex social">
-                <a href="https://www.linkedin.com/in/jesuodz">
+                <a href="https://www.linkedin.com/in/jodaz">
                     <i class="social-icon fab fa-linkedin"></i>
                 </a>
-                <a href="https://github.com/jesuodz">
+                <a href="https://github.com/jodaz">
                     <i class="social-icon fab fa-github"></i>
                 </a>
-                <a href="https://twitter.com/jesuodz">
+                <a href="https://twitter.com/jodaz_">
+                    <i class="social-icon fab fa-twitter"></i>
+                </a>
+                <a href="https://instagram.com/j0daz">
                     <i class="social-icon fab fa-twitter"></i>
                 </a>
             </div>
             <div class="credits">
-                <span>Designed and developed by Jesús Ordosgoitty &amp;copy 2019</span>
+                <span>Made at 127.0.0.1</span>
+                </br>
+                <span>© {{ now()->year }} </span>
             </div>
         </footer>
     </body>
