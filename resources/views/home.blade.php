@@ -11,8 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     </head>
     <body>
-        <header class="flex header header--scroll" id="header">
-            <a class="header-brand" href="#">Jesús Ordosgoitty</a>
+        <header class="flex header" id="header">
             <nav class="header-nav">
                 <div class="flex button" id="button">
                     <span class="line"></span>
@@ -29,8 +28,12 @@
         <main class="main">
             <section class="home" style="background-image: url(assets/img/home.jpeg)">
                 <div class="home-intro">
-                    <h1 class="home-title">Jesus Ordosgoitty</h1>
-                    <h2 class="home-subtitle">Freelance web developer</h2>
+                    <h1 class="home-title">Hello!</h1>
+                    <h1 class="home-title">I'm Jesus Ordosgoitty</h1>
+                    <h2 class="home-subtitle">and I
+                        <img src="{{ asset('/assets/icons/hearth.svg') }}" height='16px' width='16px'>
+                        software development
+                    </h2>
                 </div>
             </section>
             <section class="flex about" id="about">

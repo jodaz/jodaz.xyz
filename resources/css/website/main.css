@@ -98,9 +98,8 @@ p {
 /* NAVIGATION */
 .header {
   position: fixed;
-  height: 0;
   width: 100%;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 0;
   margin: 0;
@@ -108,14 +107,19 @@ p {
   font-weight: 700;
   font-size: 1.05rem;
   z-index: 10;
-  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, .5);
-            box-shadow: 0px 2px 4px rgba(0, 0, 0, .5);
   transition: all 0.3s ease-in-out;
-  background-color: var(--dark-primary-color);
   color: var(--text);
+  height: 3.45rem;
+  background-color: transparent;
 }
+  .header-nav {
+    width: inherit;
+    height: inherit;
+  }
   .header--scroll {
-    height: 3.45rem;
+    background-color: var(--dark-primary-color);
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, .5);
+              box-shadow: 0px 2px 4px rgba(0, 0, 0, .5);
   }
     .header--scroll .header-brand,
     .header--scroll .menu {
@@ -160,6 +164,7 @@ p {
     background-color: var(--dark-primary-color);
     color: var(--text);
     opacity: 0.97;
+    justify-content: center;
   }
     .menu--active .header-navlink:hover {
       color: var(--light-primary-color);
@@ -414,11 +419,10 @@ p {
     font-size: 2.5rem;
   }
   .menu {
-    display: none;
     position: unset;
     background: inherit;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: flex-end;
     width: 100%;
     height: inherit;
   }
@@ -439,7 +443,7 @@ p {
     background-attachment: fixed;
   }
     .home-intro {
-      text-align: center;
+      margin: auto 2rem;
     }
   .about {
     flex-flow: row-reverse wrap;
