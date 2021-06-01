@@ -6,9 +6,9 @@
 
         {!! SEO::generate() !!}
         <!-- Fonts -->
+        <link href="{{ asset('css/website/main.css') }}" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-        <link href="{{ asset('css/website/main.css') }}" rel="stylesheet">
     </head>
     <body>
         <header class="flex header header--scroll" id="header">
@@ -20,7 +20,7 @@
                     <span class="line"></span>
                 </div>
                 <div class="flex menu" id="menu">
-                    <a class="header-navlink" href="#about">about</a>
+                    <a class="header-navlink" href="https://blog.jodaz.xyz">blog</a>
                     <!-- <a class="header-navlink" href="#work">work</a>
                     <a class="header-navlink" href="#writings">writings</a> -->
                 </div>
@@ -35,7 +35,7 @@
             </section>
             <section class="flex about" id="about">
                 <div class="about-title">
-                    <h2>About me</h2>
+                    <h2>WhoAmI</h2>
                 </div>
                 <div class="about-photo">
                     <img src="{{ asset('/assets/img/profile.jpg') }}">
@@ -99,23 +99,23 @@
         </main>
         <footer class="footer flex">
             <div class="flex social">
-                <a href="https://www.linkedin.com/in/jodaz">
+                <a target="_blank" href="https://www.linkedin.com/in/jodaz">
                     <img src="{{ asset('assets/icons/linkedin.svg') }}" class="social-icon" alt="linkedin" />
                 </a>
-                <a href="https://github.com/jodaz">
+                <a target="_blank" href="https://github.com/jodaz">
                     <img src="{{ asset('assets/icons/github.svg') }}" class="social-icon" alt="github" />
                 </a>
-                <a href="https://twitter.com/jodaz_">
+                <a target="_blank" href="https://twitter.com/jodaz_">
                     <img src="{{ asset('assets/icons/twitter.svg') }}" class="social-icon" alt="twitter" />
                 </a>
-                <a href="https://instagram.com/j0daz">
+                <a target="_blank" href="https://instagram.com/j0daz">
                     <img src="{{ asset('assets/icons/instagram.svg') }}" class="social-icon" alt="instagram" />
                 </a>
             </div>
             <div class="credits">
                 <span>Made at 127.0.0.1</span>
                 </br>
-                <span>© {{ now()->year }} </span>
+                <span>© {{ now()->year }} <a href="{{ url('/') }}">jodaz</a></span>
             </div>
         </footer>
     </body>
