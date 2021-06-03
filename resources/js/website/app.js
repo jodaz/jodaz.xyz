@@ -54,7 +54,7 @@ gql(GET_USER_ARTICLES, { page: 0 })
     const articlesTag = document.getElementById('artitle-title');
     const articlesLoader = document.getElementById('writings-loader');
 
-    articles.slice(0, 2).forEach(article => {
+    articles.slice(0, 2).reverse().forEach(article => {
       // Container
       let container = document.createElement('div');
       container.className = 'writings-post';
