@@ -39,8 +39,7 @@
             <section class="flex about" id="about">
                 <div class="about-title">
                     <h2>WhoAmI</h2>
-                </div>
-                <div class="about-photo">
+                </div><div class="about-photo">
                     <img src="{{ asset('/assets/img/profile.jpg') }}">
                 </div>
                 <div class="about-bio">
@@ -57,7 +56,8 @@
                     </p>
                 </div>
             </section>
-            <!-- <section class="work" id="work">
+            <!--
+            <section class="work" id="work">
                 <h2>My work</h2>
                 <section class="project">
                     <div>
@@ -83,22 +83,13 @@
                     </div>
                 </section>
             </section>
+             -->
             <section class="flex writings" id="writings">
-                <div class="writings-title">
+                <div class="writings-title hide" id="artitle-title">
                     <h2>Latest articles</h2>
                 </div>
-                <div class="writings-post">
-                    <a class="post-link" href="https://medium.com/@jesuodz/building-a-timestamp-microservice-71a1645f09d9" target="_blank">
-                        <h3>Building a Timestamp Microservice</h3>
-                    </a>
-                    <p class="post-summary">one of my first backend projects</p>
-                </div>
-                <div class="writings-post">
-                    <a class="post-link" href="https://medium.com/@jesuodz/i-lost-my-100daysofcode-streak-and-my-computer-e965eaa6d336" target="_blank"><h3>I lost my #100DaysOfCode streak… and my computer</h3></a>
-                    <p class="post-summary">
-                    </p>
-                </div>
-            </section> -->
+                <div class="lds-ring show" id="writings-loader"><div></div><div></div><div></div><div></div></div>
+            </section>
         </main>
         <footer class="footer flex">
             <div class="flex social">
