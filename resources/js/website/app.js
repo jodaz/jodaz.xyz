@@ -50,8 +50,9 @@ async function gql(query, variables={}) {
 gql(GET_USER_ARTICLES, { page: 0 })
   .then(res => {
     const articles = res.data.user.publication.posts;
-    const rootContainer = document.getElementById('writings');
-    const articlesTag = document.getElementById('artitle-title');
+    const rootContainer = document.getElementById('articles');
+    const articlesTag = document.getElementById('article-title');
+    const blogButton = document.getElementById('read-more');
     const articlesLoader = document.getElementById('writings-loader');
 
     articles.slice(0, 2).reverse().forEach(article => {
@@ -78,6 +79,8 @@ gql(GET_USER_ARTICLES, { page: 0 })
       rootContainer.appendChild(container);
     });
 
-    articlesTag.className = 'writings-title'
+    rootContainer.className = 'flex container';
+    blogButton.className = "flex row justify--center";
+    articlesTag.className = 'row'
     articlesLoader.className = 'hide';
   });

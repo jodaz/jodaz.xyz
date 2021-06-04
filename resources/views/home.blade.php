@@ -13,13 +13,13 @@
     <body>
         <header class="flex header" id="header">
             <nav class="header-nav">
-                <div class="flex button" id="button">
+                <div class="flex button-menu" id="button">
                     <span class="line"></span>
                     <span class="line"></span>
                     <span class="line"></span>
                 </div>
                 <div class="flex menu" id="menu">
-                    <a class="header-navlink" href="https://blog.jodaz.xyz">blog</a>
+                    <a class="header-navlink" href="#writings">writings</a>
                     <!-- <a class="header-navlink" href="#work">work</a>
                     <a class="header-navlink" href="#writings">writings</a> -->
                 </div>
@@ -56,39 +56,18 @@
                     </p>
                 </div>
             </section>
-            <!--
-            <section class="work" id="work">
-                <h2>My work</h2>
-                <section class="project">
-                    <div>
-                        <div class="project-title">
-                            <h3>ShurtIt!</h3>
-                        </div>
-                        <div class="project-description">
-                            <p>Url Shortener microservice made with Node.js and MongoDB for the back-end, and vanilla CSS and Javascript in the front-end.</p>
-                        </div>
-                        <div class="project-links flex">
-                            <a class="project-link" href="https://shurtit.glitch.me/" target="_blank">
-                                live
-                            </a>
-                            <a class="project-link" href="https://github.com/jesuodz/shurtit" target="_blank">
-                                code
-                            </a>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="project-image">
-                            <img src="/assets/shurtit.png">
-                        </div>
-                    </div>
-                </section>
-            </section>
-             -->
-            <section class="flex writings" id="writings">
-                <div class="writings-title hide" id="artitle-title">
-                    <h2>Latest articles</h2>
+            <section class="flex container container--primary justify--center" id="writings">
+                <div class="row hide" id="article-title">
+                    <h2 class="writings-title">Latest articles</h2>
+                    <p class="writings-title">Once in a while, I write blog articles . Here are the most recent onces:</p>
                 </div>
                 <div class="lds-ring show" id="writings-loader"><div></div><div></div><div></div><div></div></div>
+                <div class="flex container hide" id="articles"></div>
+                <div class="flex row justify--center hide" id="read-more">
+                    <a class="button button--dark" href="https://blog.jodaz.xyz">
+                        Read more
+                    </a>
+                </div>
             </section>
         </main>
         <footer class="footer flex">

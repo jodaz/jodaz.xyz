@@ -11,10 +11,10 @@ return [
         'defaults'       => [
             'title'        => "Jesus Ordosgoitty · Software Developer", // set false to total remove
             'titleBefore'  => false, // Put defaults.title before page title, like 'It's Over 9000! - Dashboard'
-            'description'  => "Another 98' born guy full-stack Software Developer based in Venezuela. Likes to build pretty websites and great apps.",
+            'description'  => "Full-Stack Software Developer based in Venezuela | React.js, Laravel, Node.js, Express.js, MongoDB, PostgreSQL and more",
             'separator'    => ' - ',
-            'keywords'     => ['Venezuela', 'Software Developer', 'LATAM', 'PHP', 'Laravel', 'React'],
-            'canonical'    => false, // Set null for using Url::current(), set false to total remove
+            'keywords'     => ['Venezuela', 'Software Developer', 'LATAM', 'PHP', 'Laravel', 'React', 'Engineer'],
+            'canonical'    => null, // Set null for using Url::current(), set false to total remove
             'robots'       => false, // Set to 'all', 'none' or any combination of index/noindex and follow/nofollow
         ],
         /*
@@ -37,10 +37,10 @@ return [
          */
         'defaults' => [
             'title'       => 'Jesus Ordosgoitty · Software Developer', // set false to total remove
-            'description'  => "Another 98' born guy full-stack Software Developer based in Venezuela. Likes to build pretty websites and great apps.",
-            'url'         => false, // Set null for using Url::current(), set false to total remove
+            'description'  => "Full-Stack Software Developer based in Venezuela | React.js, Laravel, Node.js, Express.js, MongoDB, PostgreSQL and more",
+            'url'         => null, // Set null for using Url::current(), set false to total remove
             'type'        => false,
-            'site_name'   => false,
+            'site_name'   => 'Jesus Ordosgoitty · Software Developer',
             'images'      => [],
         ],
     ],
@@ -59,7 +59,7 @@ return [
          */
         'defaults' => [
             'title'       => 'Jesus Ordosgoitty · Software Developer', // set false to total remove
-            'description' => "Another 98' born guy full-stack Software Developer based in Venezuela. Likes to build pretty websites and great apps.", // set false to total remove
+            'description' => "Full-Stack Software Developer based in Venezuela | React.js, Laravel, Node.js, Express.js, MongoDB, PostgreSQL and more", // set false to total remove
             'url'         => false, // Set null for using Url::current(), set false to total remove
             'type'        => 'WebPage',
             'images'      => [],

@@ -35,12 +35,28 @@ body {
 .flex {
   display: flex;
 }
+.container {
+  flex-flow: column wrap;
+  text-align: left;
+  padding: 2.17rem 0 2.17rem 0;
+}
+  .container--primary {
+    background-color: var(--accent-color);
+    color: var(--text);
+  }
 .main {
   position: relative;
   z-index: 2;
   background-color: var(--text);
   color: var(--primary-text);
   margin-bottom: auto;
+}
+.row {
+  width: 100%;
+}
+.justify--center {
+  justify-content: center;
+  align-items: center;
 }
 
 /* TYPOGRAPHY */
@@ -108,30 +124,33 @@ Loader
 
 
 .social-link,
-.project-link {
+.button {
   text-decoration: none;
   padding: 1rem;
   font-size: 1.1rem;
+  color: var(--text);
+  border-radius: 4px;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0.65rem 0.73rem;
+  margin: 0.3rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  transition: 0.3s;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, .5);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, .5);
 }
-  .project-link {
-    text-align: center;
-    text-transform: uppercase;
-    background-color: var(--accent-color);
-    color: var(--text);
-    border-radius: 4px;
-    font-size: 1rem;
-    line-height: 1.5;
-    padding: 0.65rem 0.73rem;
-    margin: 0.3rem;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-    transition: 0.3s;
-    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, .5);
-            box-shadow: 0px 1px 3px rgba(0, 0, 0, .5);
+  .button:hover {
+    opacity: 0.8;
   }
-    .project-link:hover {
-      opacity: 0.8;
-    }
+  .button--primary {
+    background-color: var(--accent-color);
+  }
+  .button--dark {
+    background-color: var(--dark-primary-color);
+  }
   .social-icon {
     height: 2em;
     border-radius: 5px;
@@ -220,7 +239,7 @@ Loader
     .menu--active .header-navlink:hover {
       color: var(--light-primary-color);
     }
-  .button {
+  .button-menu {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -390,48 +409,39 @@ Loader
           background: var(--dark-primary-color);
           color: var(--text);
         }
-
-  .writings {
-    flex-flow: row wrap;
-    justify-content: center;
-    text-align: left;
-    padding: 2.17rem 0 2.17rem 0;
-    background-color: var(--accent-color);
-    color: var(--text);
+  .writings-title {
+    flex: 1 100%;
+    padding-top: 1.15rem;
+    padding-left: 1.3rem;
   }
-    .writings-title {
-      flex: 1 100%;
-      padding-top: 1.15rem;
-      padding-left: 1.3rem;
+  .writings-post {
+    padding-top: 1.55rem;
+    padding-left: 1.3rem;
+    width: 100%;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
+    .post-link {
+      color: var(--text);
+      text-decoration: none;
+      transition: 0.3s;
     }
-    .writings-post {
-      padding-top: 1.55rem;
-      padding-left: 1.3rem;
-      width: 100%;
-      font-weight: 400;
-      letter-spacing: 0.5px;
+      .post-link:hover {
+        text-decoration: underline;
+      }
+    .post-summary {
+      font-weight: 300;
+      color: var(--text);
     }
-      .post-link {
-        color: var(--text);
-        text-decoration: none;
-        transition: 0.3s;
+      .post-summary:first-letter {
+        text-transform: capitalize;
       }
-        .post-link:hover {
-          text-decoration: underline;
-        }
-      .post-summary {
-        font-weight: 300;
-        color: var(--text);
-      }
-        .post-summary:first-letter {
-          text-transform: capitalize;
-        }
-      .writings .writings-title h2::selection,
-      .writings .writings-post .post-link::selection,
-      .writings .writings-post .post-summary::selection {
-        background: var(--dark-primary-color);
-        color: var(--text);
-      }
+    .writings .writings-title h2::selection,
+    .writings .writings-post .post-link::selection,
+    .writings .writings-post .post-summary::selection {
+      background: var(--dark-primary-color);
+      color: var(--text);
+    }
 /* FOOTER */
 .footer {
   flex-flow: column nowrap;
@@ -466,6 +476,9 @@ Loader
 
 /* MEDIA QUERIES */
 @media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+  }
   h1 {
     font-size: 2.5rem;
   }
@@ -477,7 +490,7 @@ Loader
     width: 100%;
     height: inherit;
   }
-    .button {
+    .button-menu {
       display: none;
     }
     .header-navlink {
@@ -541,7 +554,7 @@ Loader
       margin-top: 2.45rem;
       justify-content: space-around;
     }
-  .writings {
+  .container {
     padding: 2.75rem 4rem 3.75rem 4rem;
   }
 }
