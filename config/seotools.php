@@ -9,7 +9,7 @@ return [
          * The default configurations to be used by the meta generator.
          */
         'defaults'       => [
-            'title'        => "Jesus Ordosgoitty · Software Developer", // set false to total remove
+            'title'        => false, // set false to total remove
             'titleBefore'  => false, // Put defaults.title before page title, like 'It's Over 9000! - Dashboard'
             'description'  => "Full-Stack Software Developer based in Venezuela | React.js, Laravel, Node.js, Express.js, MongoDB, PostgreSQL and more",
             'separator'    => ' - ',
