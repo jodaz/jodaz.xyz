@@ -19,7 +19,7 @@ class HomeController extends Controller
         SEOMeta::setTitle('Jesus Ordosgoitty · Software Developer');
 
         return view('home', [
-            'intro' => 'Jesús Ordosgoitty',
+            'intro' => 'Jesus Ordosgoitty',
             'brief' => 'Software developer, life-long learner.'
         ]);
     }
