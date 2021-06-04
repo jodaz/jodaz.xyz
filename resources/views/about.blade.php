@@ -2,6 +2,7 @@
 
 @section('content')
 <section class="flex container container--light">
+    <h2 class="container-title">About me</h2>
     <p class="container-subtitle">
         I am a web developer based in Carupano, Venezuela.
     </p>
