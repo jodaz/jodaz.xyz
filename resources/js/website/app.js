@@ -63,15 +63,16 @@ gql(GET_USER_ARTICLES, { page: 0 })
       let link = document.createElement('a');
       let title = document.createElement('h3');
       title.innerText = article.title;
+      title.className = 'container-title link';
       link.href = `https://blog.jodaz.xyz/${article.slug}`;
-      link.className = 'post-link';
+      link.className = 'container-title link';
       link.target = '_blank';
 
       link.appendChild(title); // Append title to link
       // Brief
       let brief = document.createElement('p');
       brief.innerText = article.brief;
-      brief.className = 'post-summary';
+      brief.className = 'container-subtitle post-summary';
 
       container.appendChild(link);
       container.appendChild(brief);

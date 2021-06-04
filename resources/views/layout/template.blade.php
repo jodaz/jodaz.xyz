@@ -37,6 +37,21 @@
                 </div>
             </section>
             @yield('content')
+            <section class="flex container container--dark justify--center contact">
+                <div class="row">
+                    <h2 class="container-title">Get in touch</h2>
+                    <p class="container-subtitle">
+                        Whether you are interested to do business with me, want to chat about some of my content, or just want to hang out, I am happy to talk to you.
+                    </p>
+                    <p class="container-subtitle">
+                    My preferred way of contact is via <a href="https://twitter.com/@jodaz_" class="link">Twitter</a>
+                    or <a href="mailto:jesuodz@gmail.com" class="link">email</a>.
+                    </p>
+                    <p class="container-subtitle">
+                    Feel free to check out my social media presence below to get to know me better.
+                    </p>
+                </div>
+            </section>
         </main>
         <footer class="footer flex">
             <div class="flex social">

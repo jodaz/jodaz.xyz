@@ -44,6 +44,23 @@ body {
     background-color: var(--accent-color);
     color: var(--text);
   }
+  .container--dark {
+    background-color: var(--dark-primary-color);
+    color: var(--text);
+  }
+  .container-subtitle {
+    font-weight: 300;
+    flex: 1 100%;
+    padding-top: 1.15rem;
+    padding-left: 1.3rem;
+  }
+    .container--primary .container-title::selection,
+    .container--primary .container-subtitle::selection,
+    .container--dark .container-title::selection,
+    .container--dark .container-subtitle::selection {
+      background: var(--text);
+      color: var(--primary-text);
+    }
 .main {
   position: relative;
   z-index: 2;
@@ -58,6 +75,20 @@ body {
   justify-content: center;
   align-items: center;
 }
+.container-title {
+  flex: 1 100%;
+  padding-top: 1.15rem;
+  padding-left: 1.3rem;
+}
+.link {
+  color: var(--text);
+  text-decoration: none;
+  transition: 0.3s;
+  padding: 0;
+}
+  .link:hover {
+    text-decoration: underline;
+  }
 
 /* TYPOGRAPHY */
 h1 {
@@ -122,8 +153,6 @@ Loader
   display: unset
 }
 
-
-.social-link,
 .button {
   text-decoration: none;
   padding: 1rem;
@@ -157,13 +186,11 @@ Loader
     background-color: transparent;
     margin: 0 0.5em;
   }
-  .about-social .social-icon {
-    color: var(--accent-color);
-    transition: 0.3s;
-  }
-    .about-social .social-icon:hover {
-      opacity: 0.9;
-    }
+.contact .link {
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  background-color: var(--accent-color);
+}
 
 /* NAVIGATION */
 .header {
@@ -333,87 +360,6 @@ Loader
       background: var(--text);
       color: var(--primary-text);
     }
-  .about {
-    flex-direction: column;
-    align-items: center;
-    padding: 3rem 1.75rem;
-    background-color: var(--text);
-    color: var(--primary-text);
-  }
-    .about-title,
-    .about-social {
-      flex: 1 0 100%;
-    }
-      .about-title {
-        order: 1;
-      }
-      .about-social {
-        order: 4;
-      }
-    .about-photo {
-      order: 2;
-      padding: 1.8rem 0.3rem 1.8rem 1.8rem;
-      text-align: center;
-      flex: 1 0 35%;
-    }
-    .about-bio {
-      order: 3;
-      text-align: justify;
-      flex: 2 0 65%;
-      font-weight: 300;
-    }
-    .about .about-title h2::selection,
-    .about .about-bio p::selection,
-    .about .about-photo img::selection {
-      background: var(--accent-color);
-      color: var(--text);
-    }
-  .work {
-    flex-direction: column;
-    align-items: center;
-    padding: 3rem 1.75rem;
-    background-color: var(--primary-color);
-    color: var(--text);
-  }
-    .project {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 1.45rem;
-    }
-      .project > div {
-        margin-bottom: 1.85rem;
-        height: auto;
-      }
-        .project > div:first-child {
-          word-wrap: break-word;
-        }
-        .project-description {
-          font-weight: 300;
-          margin-top: 0.7rem;
-          margin-bottom: 0.3rem;
-        }
-        .project-links {
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-        }
-        .project-image img {
-          height: auto;
-          width: 100%;
-        }
-        .project .project-title h3::selection,
-        .project .project-description p::selection,
-        .project .project-link::selection,
-        .project .project-image img::selection {
-          background: var(--dark-primary-color);
-          color: var(--text);
-        }
-  .writings-title {
-    flex: 1 100%;
-    padding-top: 1.15rem;
-    padding-left: 1.3rem;
-  }
   .writings-post {
     padding-top: 1.55rem;
     padding-left: 1.3rem;
@@ -421,26 +367,10 @@ Loader
     font-weight: 400;
     letter-spacing: 0.5px;
   }
-    .post-link {
-      color: var(--text);
-      text-decoration: none;
-      transition: 0.3s;
-    }
-      .post-link:hover {
-        text-decoration: underline;
-      }
     .post-summary {
       font-weight: 300;
       color: var(--text);
-    }
-      .post-summary:first-letter {
-        text-transform: capitalize;
-      }
-    .writings .writings-title h2::selection,
-    .writings .writings-post .post-link::selection,
-    .writings .writings-post .post-summary::selection {
-      background: var(--dark-primary-color);
-      color: var(--text);
+      padding: 0;
     }
 /* FOOTER */
 .footer {
