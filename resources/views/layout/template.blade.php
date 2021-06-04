@@ -28,12 +28,12 @@
         <main class="main">
             <section class="home" style="background-image: url(assets/img/home.jpeg)">
                 <div class="home-intro">
-                    <h1 class="home-title">Hello!</h1>
-                    <h1 class="home-title">I'm Jesus Ordosgoitty</h1>
-                    <h2 class="home-subtitle">and I
-                        <img src="{{ asset('/assets/icons/hearth.svg') }}" height='16px' width='16px'>
-                        software development
+                    <h1 class="home-title">{{ $intro }}</h1>
+                    @isset($brief)
+                    <h2 class="home-subtitle">
+                    {{ $brief }}
                     </h2>
+                    @endisset
                 </div>
             </section>
             @yield('content')
