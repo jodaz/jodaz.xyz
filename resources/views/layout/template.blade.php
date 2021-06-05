@@ -19,9 +19,10 @@
                     <span class="line"></span>
                 </div>
                 <div class="flex menu" id="menu">
-                    <a class="header-navlink" href="{{ route('home') }}">home</a>
-                    <a class="header-navlink" href="{{ route('about') }}">about</a>
-                    <a class="header-navlink" href="https://blog.jodaz.xyz/" target="_blank">writings</a>
+                    <a class="header-navlink" href="{{ route('home') }}" title="Home">home</a>
+                    <a class="header-navlink" href="{{ route('about') }}" title="About">about</a>
+                    <a class="header-navlink" href="{{ route('projects') }}" title="Projects">projects</a>
+                    <a class="header-navlink" href="https://blog.jodaz.xyz/" target="_blank" title="Writings">writings</a>
                 </div>
             </nav>
         </header>
@@ -44,8 +45,8 @@
                         Whether you are interested to do business with me, want to chat about some of my content, or just want to hang out, I am happy to talk to you.
                     </p>
                     <p class="container-subtitle">
-                    My preferred way of contact is via <a href="https://twitter.com/@jodaz_" class="link">Twitter</a>
-                    or <a href="mailto:jesuodz@gmail.com" class="link">email</a>.
+                    My preferred way of contact is via <a title="Twitter" href="https://twitter.com/@jodaz_" class="link">Twitter</a>
+                    or <a href="mailto:jesuodz@gmail.com" class="link" title="Email">email</a>.
                     </p>
                     <p class="container-subtitle">
                     Feel free to check out my social media presence below to get to know me better.
@@ -53,22 +54,22 @@
                 </div>
             </section>
         </main>
-        <footer class="footer flex">
-            <div class="flex social">
-                <a target="_blank" href="https://www.linkedin.com/in/jodaz">
+        <footer class="flex container">
+            <div class="flex row justify--center social">
+                <a title="LinkedIn" target="_blank" href="https://www.linkedin.com/in/jodaz">
                     <img src="{{ asset('assets/icons/linkedin.svg') }}" class="social-icon" alt="linkedin" />
                 </a>
-                <a target="_blank" href="https://github.com/jodaz">
+                <a title="Github" target="_blank" href="https://github.com/jodaz">
                     <img src="{{ asset('assets/icons/github.svg') }}" class="social-icon" alt="github" />
                 </a>
-                <a target="_blank" href="https://twitter.com/jodaz_">
+                <a title="Twitter" target="_blank" href="https://twitter.com/jodaz_">
                     <img src="{{ asset('assets/icons/twitter.svg') }}" class="social-icon" alt="twitter" />
                 </a>
-                <a target="_blank" href="https://instagram.com/j0daz">
+                <a title="Instagram" target="_blank" href="https://instagram.com/j0daz">
                     <img src="{{ asset('assets/icons/instagram.svg') }}" class="social-icon" alt="instagram" />
                 </a>
             </div>
-            <div class="credits">
+            <div class="row credits justify--center">
                 <span>Made at 127.0.0.1</span>
                 </br>
                 <span>© {{ now()->year }} <a href="{{ url('/') }}">jodaz</a></span>
