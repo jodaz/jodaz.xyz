@@ -15,4 +15,5 @@ require('laravel-mix-imagemin');
 mix.js('resources/js/website/app.js', 'public/js/website')
   .postCss('resources/css/website/main.css', 'public/css/website')
   .copyDirectory('resources/assets/icons', 'public/assets/icons')
+  .copyDirectory('resources/assets/files', 'public/assets/files')
   .copyDirectory('resources/assets/img', 'public/assets/img');

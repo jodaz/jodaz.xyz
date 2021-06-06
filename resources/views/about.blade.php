@@ -8,6 +8,21 @@
         </p>
         <p>I love to fix problems, as well as making things pretty and easy to use through development and coding. Also I can't stop learning new things; the more, the better.
         </p>
+        <p>
+            Want a downloable curriculum? Check the
+            <a
+                 href="{{ asset('assets/files/cv-en.pdf') }}"
+                 title="English CV"
+                 class="l ac"
+                 target="_blank"
+            >English</a> or
+            <a
+                href="{{ asset('assets/files/cv-es.pdf') }}"
+                title="English CV"
+                class="l ac"
+                target="_blank"
+            >Spanish</a> version.
+        </p>
     </div>
 </section>
 <section class="flex container container--primary">
