@@ -25,7 +25,8 @@ class AboutController extends Controller
         OpenGraph::setSiteName('About · Jesus Ordosgoitty');
 
         return view('about', [
-            'intro' => 'About me'
+            'intro' => 'About me',
+            'brief' => "\"To change or to perish, there is no other option.\""
         ]);
     }
 }

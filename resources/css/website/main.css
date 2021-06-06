@@ -73,10 +73,17 @@ body {
 }
 .row {
   width: 100%;
+  padding: 1.15rem;
 }
-.justify--center {
+.jc {
   justify-content: center;
   align-items: center;
+}
+.jsb {
+  justify-content: space-between;
+}
+.jsa {
+  justify-content: space-around;
 }
 
 /* TYPOGRAPHY */
@@ -103,15 +110,41 @@ p {
   padding-top: 1.15rem;
   padding-left: 1.3rem;
 }
-.link {
+.l {
   color: var(--text);
   text-decoration: none;
   transition: 0.3s;
   padding: 0;
 }
-  .link:hover {
+  .l--light {
+    color: var(--primary-text);
+  }
+  .l:hover {
     text-decoration: underline;
   }
+.s {
+  font-weight: bold;
+}
+.dpc {
+  color: var(--dark-primary-color);
+}
+.ac {
+  color: var(--accent-color);
+}
+.tc {
+  text-align: center;
+}
+.tl {
+  text-align: left;
+}
+.tr {
+  text-align: right;
+}
+.q {
+  font-weight: 400;
+  color: var(--secondary-text);
+  font-style: italic;
+}
 
 /**
 Loader
@@ -195,7 +228,7 @@ Loader
     background-color: transparent;
     margin: 0 0.5em;
   }
-.contact .link {
+.contact .l {
   padding-left: 0.4em;
   padding-right: 0.4em;
   background-color: var(--accent-color);
@@ -360,10 +393,6 @@ Loader
         letter-spacing: 0.5px;
         word-spacing: 5px;
       }
-      .home-subtitle {
-        font-weight: 400;
-        color: var(--secondary-text);
-      }
     .home .home-title::selection,
     .home .home-subtitle::selection {
       background: var(--text);
@@ -441,12 +470,6 @@ Loader
     padding-left: 4rem;
     padding-right: 1.7rem;
   }
-  .project {
-    flex-flow: row nowrap;
-  }
-  .project > div {
-    padding: 0 1.35rem;
-  }
   .writings-post {
     width: auto;
     flex: 1 50%;
@@ -462,20 +485,6 @@ Loader
   h1 {
     font-size: 3.64rem;
   }
-  .about {
-    padding: 3.75rem 5.87rem;
-  }
-  .project {
-    padding: 0 2.1rem;
-    text-align: justify;
-  }
-    .project > div {
-      flex: 1;
-    }
-    .project-links {
-      margin-top: 2.45rem;
-      justify-content: space-around;
-    }
   .container {
     padding: 2.75rem 4rem 3.75rem 4rem;
   }

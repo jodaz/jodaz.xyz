@@ -63,9 +63,9 @@ gql(GET_USER_ARTICLES, { page: 0 })
       let link = document.createElement('a');
       let title = document.createElement('h3');
       title.innerText = article.title;
-      title.className = 'container-title link';
+      title.className = 'l';
       link.href = `https://blog.jodaz.xyz/${article.slug}`;
-      link.className = 'container-title link';
+      link.className = 'l';
       link.target = '_blank';
 
       link.appendChild(title); // Append title to link
@@ -81,7 +81,7 @@ gql(GET_USER_ARTICLES, { page: 0 })
     });
 
     rootContainer.className = 'flex container';
-    blogButton.className = "flex row justify--center";
+    blogButton.className = "flex row jc";
     articlesTag.className = 'row'
     articlesLoader.className = 'hide';
   });

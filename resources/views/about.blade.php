@@ -2,17 +2,40 @@
 
 @section('content')
 <section class="flex container container--light">
-    <h2 class="container-title">About me</h2>
-    <p class="container-subtitle">
-        I am a web developer based in Carupano, Venezuela.
-    </p>
-    <p class="container-subtitle">I love to solve problems as well as making things pretty and easy to use. I can't stop learning new things; the more, the better.
-    In my free time, I enjoy to design and code interfaces, algorithm exercises and web development projects.
-    </p>
-    <p class="container-subtitle">For the front-end I usually work with Javascript, either standalone or including a frammework like ReactJS.
-    I also make the web pretty by using CSS and, whenever needed, use a design frammework like Bootstrap.
-    </p>
-    <p class="container-subtitle">For the back-end I work with Javascript, Node.JS, Express and MongoDB.
-    </p>
+    <div class="row">
+        <p>
+            Hello! My name is Jesus Ordosgoitty and I am a software developer based in Carupano, Venezuela.
+        </p>
+        <p>I love to fix problems, as well as making things pretty and easy to use through development and coding. Also I can't stop learning new things; the more, the better.
+        </p>
+    </div>
+</section>
+<section class="flex container container--primary">
+    <div class="row">
+        <h2 class="container--title"><span class="dpc s">#</span> Experience</h2>
+    </div>
+    <div class="row">
+
+    </div>
+    <div class="row">
+        <h2 class="container--title"><span class="dpc s">#</span> Uses</h2>
+    </div>
+    <div class="row">
+
+    </div>
+</section>
+<section class="flex container container--light">
+    <div class="row">
+        <h2 class="container--title"><span class="ac s">#</span> Education</h2>
+    </div>
+    <div class="row">
+
+    </div>
+    <div class="row">
+        <h2 class="container--title"><span class="ac s">#</span> Interests</h2>
+    </div>
+    <div class="row">
+
+    </div>
 </section>
 @endsection
