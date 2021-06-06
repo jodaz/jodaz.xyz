@@ -27,7 +27,7 @@
             </nav>
         </header>
         <main class="main">
-            <section class="home" style="background-image: url(assets/img/home.jpeg)">
+            <section class="home" style="background-image: url({{ $landingPhoto }})">
                 <div class="home-intro">
                     <h1 class="home-title">{{ $intro }}</h1>
                     @isset($brief)

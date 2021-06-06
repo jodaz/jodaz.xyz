@@ -25,6 +25,7 @@ class AboutController extends Controller
         OpenGraph::setSiteName('About · Jesus Ordosgoitty');
 
         return view('about', [
+            'landingPhoto' => 'assets/img/home.jpeg',
             'intro' => 'About me',
             'brief' => "\"To change or to perish, there is no other option.\""
         ]);

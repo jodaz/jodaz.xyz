@@ -24,6 +24,7 @@ class ProjectController extends Controller
         OpenGraph::setSiteName('Projects · Jesus Ordosgoitty');
 
         return view('projects', [
+            'landingPhoto' => 'assets/img/projects.jpg',
             'intro' => 'Projects',
             'brief' => "\"Courage, creativity and understanding are requirements to change the world.\""
         ]);

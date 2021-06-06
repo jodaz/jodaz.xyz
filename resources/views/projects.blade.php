@@ -47,7 +47,7 @@
                 <a
                     href="https://github.com/jodaz/ra-laravel-client"
                     class="link l--light s"
-                >ra-Laravel-Client</a>
+                >ra-laravel-client</a>
              A laravel focused JSON-API client for the React Admin Frammework.
             </li>
             <li>
