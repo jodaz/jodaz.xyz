@@ -73,7 +73,7 @@ body {
 }
 .row {
   width: 100%;
-  padding: 1.15rem;
+  padding: 0 1.15rem;
 }
 .jc {
   justify-content: center;
@@ -122,6 +122,10 @@ p {
   .l:hover {
     text-decoration: underline;
   }
+.i {
+  font-style: italic;
+  font-weight: light;
+}
 .s {
   font-weight: bold;
 }
@@ -427,6 +431,23 @@ Loader
 .credits span::selection {
   background: var(--text);
   color: var(--primary-text);
+}
+.separator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 3rem auto;
+}
+  .separator--light {
+    background-color: var(--accent-color);
+    border: solid 1px var(--accent-color);
+  }
+  .separator--dark {
+    background-color: var(--dark-primary-color);
+    border: solid 1px var(--dark-primary-color);
+  }
+ul li {
+  margin-bottom: 0.4rem;
 }
 
 /* MEDIA QUERIES */

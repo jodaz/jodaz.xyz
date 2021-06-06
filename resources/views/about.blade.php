@@ -24,6 +24,34 @@
     </div>
     <div class="row">
         <h2 class="container--title"><span class="dpc s">#</span> Uses</h2>
+        <div class="row">
+            <h3>Systems, Languages and Frammeworks</h3>
+            <ul>
+                <li>Ubuntu and flavors are my preferred OS systems.</li>
+                <li>Generally I deploy my apps with PM2 and Apache2 web server.</li>
+                <li>Typescript and PHP have become my default tools for working.</li>
+                <li>I implement Python, Bash and Javascript for task automation, utilities and migration tools.</li>
+                <li>As backend frammeworks, Laravel and Express/Node.js are really useful.</li>
+                <li>PostgreSQL, MongoDB and MySQL are my prefered database management systems.</li>
+                <li>I found Knex.js is a very useful library for upgrading or changing a database.</li>
+                <li>Finally, <a href="https://reactjs.org/" class="l l--light">React.js</a> and <a href="https://marmelab.com/react-admin/" class="l l--light">React Admin</a> are my goto libraries for building user interfaces.</li>
+                <li>Should I mention I like <a href="https://redux.js.org/" class="l l--light">Redux</a> / <a href="https://redux-saga.js.org/" class="l l--light">ReduxSaga</a>, <a href="https://final-form.org/react" class="l l--light">React Final Form</a>, <a href="https://reacttraining.com/react-router/" class="l l--light">React Router</a> and <a href="https://material-ui.com/" class="l l--light">MaterialUI</a> ?.</li>
+            </ul>
+        </div>
+        <div class="row">
+            <h3>Editor</h3>
+            <ul>
+                <li>I switch between Vim and VS Code for coding.</li>
+            </ul>
+        </div>
+        <div class="row">
+            <h3>Desktop Apps</h3>
+            <ul>
+                <li>Main browser: <a href="https://brave.com" class="l l--light">Brave</a>- Best chrome without Google.</li>
+                <li>Secondary browser: <a href="https://www.chromium.org" class="l l--light">Chromium</a> - Second best chrome without Google.</li>
+                <li>Default search engine: Google. </li>
+            </ul>
+        </div>
     </div>
     <div class="row">
 
