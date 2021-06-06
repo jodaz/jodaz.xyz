@@ -9,6 +9,11 @@
     <div class="row">
 
     </div>
+    <div class="flex row jc">
+        <a class="button button--dark" href="https://github.com/jodaz">
+            More
+        </a>
+    </div>
 </section>
 <section class="flex container container--dark">
     <div class="row tc">
@@ -18,6 +23,7 @@
 <section class="flex container container--light">
     <div class="row t--left">
         <h2 class="container--title"><span class="ac s">#</span> Packages and utilities</h2>
+        <p>Overtime, I had to build some stuff to customize frammeworks or just make my job a lot more easier and quickier. Here is some of my best repositories:</p>
     </div>
     <div class="row">
         <ul>
@@ -27,6 +33,13 @@
                     class="link l--light s"
                 >Ra-Laravel-Client</a>
              A laravel focused JSON-API client for the React Admin Frammework.
+            </li>
+            <li>
+                <a
+                    href="https://github.com/jodaz/scripts"
+                    class="link l--light s"
+                >scripts</a>
+             Collection of scripts and utilities. Interesting stuff is right here!.
             </li>
         </ul>
     </div>
