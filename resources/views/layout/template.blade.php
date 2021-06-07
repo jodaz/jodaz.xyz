@@ -72,7 +72,7 @@
             <div class="row credits tc">
                 <span>Made at 127.0.0.1</span>
                 </br>
-                <span>© {{ now()->year }} <a href="{{ url('/') }}">jodaz</a></span>
+                <span>© {{ now()->year }} <a href="{{ url('/') }}" class="l ac">jodaz</a></span>
             </div>
         </footer>
     </body>

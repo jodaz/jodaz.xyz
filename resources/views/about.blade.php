@@ -42,14 +42,38 @@
         <div class="row">
             <h3>Systems, Languages and Frammeworks</h3>
             <ul>
-                <li>Ubuntu and flavors are my preferred OS systems.</li>
-                <li>Generally I deploy my apps with PM2 and Apache2 web server.</li>
-                <li>Typescript and PHP have become my default tools for working.</li>
-                <li>I implement Python, Bash and Javascript for task automation, utilities and migration tools.</li>
-                <li>As backend frammeworks, Laravel and Express/Node.js are really useful.</li>
-                <li>PostgreSQL, MongoDB and MySQL are my prefered database management systems.</li>
-                <li>I found Knex.js is a very useful library for upgrading or changing a database.</li>
-                <li>Finally, <a href="https://reactjs.org/" class="l l--light">React.js</a> and <a href="https://marmelab.com/react-admin/" class="l l--light">React Admin</a> are my goto libraries for building user interfaces.</li>
+                <li>
+                    <a href="https://ubuntu.com/" class="l l--light">Ubuntu</a>
+                    and flavors are my preferred OS systems.
+                </li>
+                <li>Generally I deploy my apps with
+                    <a href="https://pm2.keymetrics.io/" class="l l--light">PM2</a>
+                    and
+                    <a href="https://httpd.apache.org/" class="l l--light">Apache2</a>
+                    web server.
+                </li>
+                <li><a href="https://www.typescriptlang.org/" class="l l--light">Typescript</a> and <a href="https://www.php.net/" class="l l--light">PHP</a> have become my default tools for working.</li>
+                <li>I implement <a href="https://www.python.org/" class="l l--light">Python</a>,
+                <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" class="l l--light">Bash</a> and
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript" class="l l--light">Javascript</a> for task automation, utilities and migration tools.</li>
+                <li>As backend frammeworks, <a href="https://laravel.com/" class="l l--light">Laravel</a> and
+                    <a href="https://expressjs.com/" class="l l--light">Express</a> /
+                    <a href="https://nodejs.org/" class="l l--light">Node.js</a> are really useful.</li>
+                <li>
+                    <a href="https://www.postgresql.org/" class="l l--light">PostgreSQL</a>,
+                    <a href="https://www.mongodb.com" class="l l--light">MongoDB</a> and
+                    <a href="https://www.mysql.com/" class="l l--light">MySQL</a>
+                    are my prefered database management systems.
+                </li>
+                <li>I found
+                    <a href="http://knexjs.org/" class="l l--light">Ubuntu</a>
+                    is a very useful library for upgrading or changing a database.
+                </li>
+                <li>Finally,
+                    <a href="https://reactjs.org/" class="l l--light">React.js</a>
+                    and <a href="https://marmelab.com/react-admin/" class="l l--light">React Admin</a>
+                    are my goto libraries for building user interfaces.
+                </li>
                 <li>Should I mention I like <a href="https://redux.js.org/" class="l l--light">Redux</a> / <a href="https://redux-saga.js.org/" class="l l--light">ReduxSaga</a>, <a href="https://final-form.org/react" class="l l--light">React Final Form</a>, <a href="https://reacttraining.com/react-router/" class="l l--light">React Router</a> and <a href="https://material-ui.com/" class="l l--light">MaterialUI</a> ?.</li>
             </ul>
         </div>
