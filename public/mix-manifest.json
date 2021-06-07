@@ -11,5 +11,14 @@
     "/assets/img/bermudez_logo.webp": "/assets/img/bermudez_logo.webp",
     "/assets/img/home.jpeg": "/assets/img/home.jpeg",
     "/assets/img/projects.jpg": "/assets/img/projects.jpg",
-    "/assets/img/projects2.jpg": "/assets/img/projects2.jpg"
+    "/assets/img/projects2.jpg": "/assets/img/projects2.jpg",
+    "/assets/icons/bitcoin.svg": "/assets/icons/bitcoin.svg",
+    "/assets/icons/brain.svg": "/assets/icons/brain.svg",
+    "/assets/icons/code.svg": "/assets/icons/code.svg",
+    "/assets/icons/dash.svg": "/assets/icons/dash.svg",
+    "/assets/icons/hashnode.svg": "/assets/icons/hashnode.svg",
+    "/assets/icons/laravel.svg": "/assets/icons/laravel.svg",
+    "/assets/icons/litecoin.svg": "/assets/icons/litecoin.svg",
+    "/assets/icons/react.svg": "/assets/icons/react.svg",
+    "/assets/icons/telegram.svg": "/assets/icons/telegram.svg"
 }

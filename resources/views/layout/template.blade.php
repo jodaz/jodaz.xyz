@@ -45,7 +45,7 @@
                         Whether you are interested to do business with me, want to chat about some of my content, or just want to hang out, I am happy to talk to you.
                     </p>
                     <p class="container-subtitle">
-                    My preferred way of contact is via <a title="Twitter" href="https://twitter.com/@jodaz_" class="l">Twitter</a>
+                    My preferred way of contact is via <a title="Telegram" href="https://t.me/j0daz" class="l">Telegram</a>
                     or <a href="mailto:jesuodz@gmail.com" class="l" title="Email">email</a>.
                     </p>
                     <p class="container-subtitle">
@@ -65,8 +65,14 @@
                 <a title="Twitter" target="_blank" href="https://twitter.com/jodaz_">
                     <img src="{{ asset('assets/icons/twitter.svg') }}" class="social-icon" alt="twitter" />
                 </a>
+                <a title="Telegram" target="_blank" href="https://t.me/j0daz">
+                    <img src="{{ asset('assets/icons/telegram.svg') }}" class="social-icon" alt="telegram" />
+                </a>
                 <a title="Instagram" target="_blank" href="https://instagram.com/j0daz">
                     <img src="{{ asset('assets/icons/instagram.svg') }}" class="social-icon" alt="instagram" />
+                </a>
+                <a title="Hasnode" target="_blank" href="https://hasnode.com/@jodaz">
+                    <img src="{{ asset('assets/icons/hashnode.svg') }}" class="social-icon" alt="hashnode" />
                 </a>
             </div>
             <div class="row credits tc">
