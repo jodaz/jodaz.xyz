@@ -3,27 +3,34 @@
 @section('content')
 <section class="flex container container--primary">
     <div class="row t--left">
-        <h2 class="container--title"><span class="dpc s">#</span> Projects</h2>
+        <h2 class="container--title"><span class="dpc s">#</span> {{ __('Projects') }}</h2>
         <p>{{ __("As an employee I'm currently working with local organizations of the region building the software infrastructure of the future, but I also do freelance and remote work for national companies and clients overseas.") }}</p>
     </div>
     <div class="row">
         <div class="row project">
             <div class="project-title">
                 <h3 class="container--title">SAUCO</h3>
-                <small class="project-title--brief i">
-                    Sistema de Atención Único al Contribuyente
-                </small>
+                <p class="project-title--brief i">
+                    {{ __('Single Taxpayer Service System') }}
+                </p>
             </div>
-            <p>
-                The Single Taxpayer Service System (SAUCO, spanish accronym) is a financial and catastral platform for the Venezuelan tax administration system that maintains control of taxpayers, companies, vehicles and real state as well as their financial statement.
-            </p>
-            <p>
-                The pilot project is deployed in the Bermudez Municipality.
-            </p>
-            <small class="s i"> (*) As of June, 2021 I am actively working on the development of the cadastral system, the financial reports funcionality and migrating from the old financial system.</small>
-            <p>
-                <span class="s">Technologies</span>: React.js (Typescript), Laravel, PostgreSQL.
-            </p>
+            <div class="flex project-content">
+                <div class="flex jc alc fdc project-image">
+                    <img src="{{ asset('assets/img/sauco.png') }}" alt="Sauco" />
+                </div>
+                <div class="project-description">
+                    <p>
+                        It is a financial and catastral platform for the Venezuelan tax administration system that maintains control of taxpayers, companies, vehicles and real state as well as their financial statement.
+                    </p>
+                    <p>
+                        The pilot project is deployed in the Bermudez Municipality.
+                    </p>
+                    <small class="s i"> (*) As of June, 2021 I am actively working on the development of the cadastral system, the financial reports funcionality and migrating from the old financial system.</small>
+                    <p>
+                        <span class="s">Technologies</span>: React.js (Typescript), Laravel, PostgreSQL.
+                    </p>
+                </div>
+            </div>
         </div>
         <hr class="separator separator--dark"></hr>
     </div>

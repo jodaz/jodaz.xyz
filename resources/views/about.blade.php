@@ -94,7 +94,7 @@
             </ul>
         </div>
         <div class="row">
-            <h3>Desktop Apps</h3>
+            <h3>{{ __("Desktop Apps") }}</h3>
             <ul>
                 <li>Main browser: <a href="https://brave.com" class="l l--light">Brave</a>- Best chrome without Google.</li>
                 <li>Secondary browser: <a href="https://www.chromium.org" class="l l--light">Chromium</a> - Second best chrome without Google.</li>
@@ -108,7 +108,7 @@
 </section>
 <section class="flex container container--light">
     <div class="row">
-        <h2 class="container--title"><span class="ac s">#</span> Education</h2>
+        <h2 class="container--title"><span class="ac s">#</span> {{ __("Education") }}</h2>
         <div class="row">
             <h3 class="container--subtitle">Universidad de Oriente, ext. Carupano<small class="i"> — Sept. 2016, today?</small></h3>
             <small class="i">* Maybe I dropped out of college, maybe I didn't. I don't know, college is a hard issue in Venezuela, and the Covid-19 didn't help neither.</small>
@@ -116,7 +116,7 @@
         </div>
     </div>
     <div class="row">
-        <h2 class="container--title"><span class="ac s">#</span> Interests</h2>
+        <h2 class="container--title"><span class="ac s">#</span> {{ __("Interests") }}</h2>
     </div>
     <div class="row">
 

@@ -4,6 +4,12 @@
   "projects": "proyectos",
   "writings": "artículos",
   "Get in touch": "Contáctame",
+  "Projects": "Proyectos",
+  "Experience": "Experiencia",
+  "Uses": "Herramientas",
+  "Education": "Educación",
+  "Interests": "Intereses",
+  "Desktop Apps": "Aplicaciones de escritorio",
   "Whether you are interested to do business with me, want to chat about some of my content, or just want to hang out, I am happy to talk to you.": "Ya sea que deseas realizar un proyecto conmigo, o quieres chatear sobre uno de mis contenidos, será un placer hablar contigo.",
   "Feel free to check out my social media presence below to get to know me better.": "Puedes revisar mis redes sociales debajo para conocerme más.",
   "Hello! My name is Jesus Ordosgoitty and I am a software developer based in Carupano, Venezuela.": "¡Hola! Mi nombre es Jesús Ordosgoitty y soy un desarrollador de software localizado en Carúpano, Venezuela.",
@@ -32,5 +38,6 @@
   "Desktop Apps": "Aplicaciones de escritorio",
   "Systems, Languages and Frammeworks": "Sistemas, lenguajes y frammeworks",
   "As an employee I'm currently working with local organizations of the region building the software infrastructure of the future, but I also do freelance and remote work for national companies and clients overseas.": "Como empleado, actualmente trabajo con organizaciones locales de la región construyendo la infraestructura de software del futuro, pero también realizo trabajo autónomo y remoto para empresas nacionales y clientes en el extranjero.",
-  "Overtime, I had to build some stuff to customize frameworks or just make my job a lot more easier and quicker. Here is some of my best repositories": "Con el tiempo, tuve que construir algunas cosas para personalizar marcos o simplemente hacer mi trabajo mucho más fácil y rápido. Estos son algunos de mis mejores repositorios"
+  "Overtime, I had to build some stuff to customize frameworks or just make my job a lot more easier and quicker. Here is some of my best repositories": "Con el tiempo, tuve que construir algunas cosas para personalizar marcos o simplemente hacer mi trabajo mucho más fácil y rápido. Estos son algunos de mis mejores repositorios",
+  "Single Taxpayer Service System": "Sistema de Atención Único al Contribuyente"
 }
