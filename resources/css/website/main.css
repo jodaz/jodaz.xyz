@@ -474,9 +474,37 @@ ul li {
 .project-content {
   flex-flow: column nowrap;
 }
+.intro--container {
+  flex-flow: column nowrap;
+}
+.intro--container .intro--icon {
+  padding: 0 2rem;
+  justify-content: center;
+  width: 20%;
+}
+.intro--container .intro--description {
+  width: 80%;
+  text-align: center;
+}
+.intro--icon img {
+  height: 5rem;
+  width: 5rem;
+  color: #3d5afe;
+}
 
 /* MEDIA QUERIES */
 @media (min-width: 600px) {
+  .intro--container {
+    flex-flow: row nowrap;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+    .intro--container .intro--icon {
+      justify-content: flex-end;
+    }
+    .intro--container .intro--description {
+      text-align: left;
+    }
   .lang--container .header-navlink {
     font-size: 0.7rem;
   }
