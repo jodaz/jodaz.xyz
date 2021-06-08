@@ -31,6 +31,11 @@
                     <a class="header-navlink" href="https://blog.jodaz.xyz/" target="_blank" title="Writings">
                         {{ __('writings') }}
                     </a>
+                    <div class="flex aic lang--container">
+                        @foreach (language()->allowed() as $code => $name)
+                            <a href="{{ language()->back($code) }}" class="header-navlink">{{ $code }}</a>
+                        @endforeach
+                    </div>
                 </div>
             </nav>
         </header>
@@ -48,16 +53,18 @@
             @yield('content')
             <section class="flex container container--dark contact">
                 <div class="row">
-                    <h2 class="container-title"><span class="ac s">#</span> Get in touch</h2>
+                    <h2 class="container-title"><span class="ac s">#</span>
+                        {{ __('Get in touch') }}
+                    </h2>
                     <p class="container-subtitle">
-                        Whether you are interested to do business with me, want to chat about some of my content, or just want to hang out, I am happy to talk to you.
+                       {{ __('Whether you are interested to do business with me, want to chat about some of my content, or just want to hang out, I am happy to talk to you.') }}
                     </p>
                     <p class="container-subtitle">
-                    My preferred way of contact is via <a title="Telegram" href="https://t.me/j0daz" class="l">Telegram</a>
-                    or <a href="mailto:jesuodz@gmail.com" class="l" title="Email">email</a>.
+                    {{ __('My preferred ways of contact is via') }} <a title="Telegram" href="https://t.me/j0daz" class="l">Telegram</a>
+                    {{ __('and') }} <a href="mailto:jesuodz@gmail.com" class="l" title="Email">email</a>.
                     </p>
                     <p class="container-subtitle">
-                    Feel free to check out my social media presence below to get to know me better.
+                        {{  __('Feel free to check out my social media presence below to get to know me better.') }}
                     </p>
                 </div>
             </section>
@@ -84,9 +91,9 @@
                 </a>
             </div>
             <div class="row credits tc">
-                <span>Made at 127.0.0.1</span>
+                <small>{{ __('Made at 127.0.0.1 with a lot of coffee') }}</small>
                 </br>
-                <span>© {{ now()->year }} <a href="{{ url('/') }}" class="l ac">jodaz</a></span>
+                <small>© {{ now()->year }} <a href="{{ url('/') }}" class="l ac">jodaz</a></small>
             </div>
         </footer>
     </body>

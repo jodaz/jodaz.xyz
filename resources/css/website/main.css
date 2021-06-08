@@ -85,6 +85,9 @@ body {
 .jsa {
   justify-content: space-around;
 }
+.aic {
+  align-items: center;
+}
 
 /* TYPOGRAPHY */
 h1 {
@@ -359,6 +362,15 @@ Loader
         -webkit-transform-origin: 82% 50%;
                 transform-origin: 82% 50%;
       }
+  .lang-container {
+    margin-top: -1rem;
+    margin-left: 1rem;
+  }
+  .lang--container .header-navlink {
+    font-size: 10px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
 
 /* SECTIONS */
 .main > section {

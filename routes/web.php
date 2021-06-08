@@ -16,9 +16,11 @@ use App\Http\Controllers\ProjectController;
 |
 */
 
-Route::get('/', HomeController::class)
-    ->name('home');
-Route::get('about', AboutController::class)
-    ->name('about');
-Route::get('projects', ProjectController::class)
-    ->name('projects');
+Route::group(['middleware' => 'language'],  function () {
+    Route::get('/', HomeController::class)
+        ->name('home');
+    Route::get('about', AboutController::class)
+        ->name('about');
+    Route::get('projects', ProjectController::class)
+        ->name('projects');
+});
