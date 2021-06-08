@@ -4,7 +4,7 @@
 <section class="flex container container--light">
     <div class="row">
         <p>
-            Hello! My name is Jesus Ordosgoitty and I am a software developer based in Carupano, Venezuela.
+            {{ __('Hello! My name is Jesus Ordosgoitty and I am a software developer based in Carupano, Venezuela.') }}
         </p>
         <p>I love to fix problems, as well as making things pretty and easy to use through development and coding. Also I can't stop learning new things; the more, the better.
         </p>

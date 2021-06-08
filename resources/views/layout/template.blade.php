@@ -19,10 +19,18 @@
                     <span class="line"></span>
                 </div>
                 <div class="flex menu" id="menu">
-                    <a class="header-navlink" href="{{ route('home') }}" title="Home">home</a>
-                    <a class="header-navlink" href="{{ route('about') }}" title="About">about</a>
-                    <a class="header-navlink" href="{{ route('projects') }}" title="Projects">projects</a>
-                    <a class="header-navlink" href="https://blog.jodaz.xyz/" target="_blank" title="Writings">writings</a>
+                    <a class="header-navlink" href="{{ route('home') }}" title="Home">
+                        {{ __('home') }}
+                    </a>
+                    <a class="header-navlink" href="{{ route('about') }}" title="About">
+                        {{ __('about') }}
+                    </a>
+                    <a class="header-navlink" href="{{ route('projects') }}" title="Projects">
+                        {{ __('projects') }}
+                    </a>
+                    <a class="header-navlink" href="https://blog.jodaz.xyz/" target="_blank" title="Writings">
+                        {{ __('writings') }}
+                    </a>
                 </div>
             </nav>
         </header>
