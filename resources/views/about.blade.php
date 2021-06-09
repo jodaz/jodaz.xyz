@@ -35,7 +35,7 @@
         <div class="row">
             <h3 class="container--subtitle"><a href="https://jodaz.xyz" title="Alcaldía de Bermúdez Website" class="l">{{ __('Freelance Software Developer') }}</a><small class="i"> — {{ __('Dec') }}. 2020, {{ __('today') }}</small></h3>
             <h3 class="container--subtitle"><a href="https://somoscarupano.com.ve" title="Alcaldía de Bermúdez Website" class="l">Alcaldía de Bermudez</a><small class="i"> — Sept. 2019, {{ __('today') }}</small></h3>
-            <p>{{ __('Head of Web Development & Digital Marketing') }} <small class="i"> — Nov. 2020</small></p>
+            <p>{{ __("Head of Web Development & Digital Marketing") }} <small class="i"> — Nov. 2020</small></p>
             <p>{{ __('Software Developer & Technical Support') }}<small class="i"> — Sept. 2019</small></p>
         </div>
     </div>
@@ -52,12 +52,12 @@
                     <a href="https://pm2.keymetrics.io/" class="l l--light">PM2</a>
                     {{ __("and") }}
                     <a href="https://httpd.apache.org/" class="l l--light">Apache2</a>
-                    {{ __("web server.") }}
+                    web server.
                 </li>
                 <li><a href="https://www.typescriptlang.org/" class="l l--light">Typescript</a>
                     {{ __("and") }}
                     <a href="https://www.php.net/" class="l l--light">PHP</a>
-                    {{ __("have become my default tools for working.") }}
+                    {{ __("are currently my preferred programming languages for working.") }}
                 </li>
                 <li>{{ __("I implement") }} <a href="https://www.python.org/" class="l l--light">Python</a>,
                 <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" class="l l--light">Bash</a> {{ __("and") }}
