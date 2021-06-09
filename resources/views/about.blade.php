@@ -33,10 +33,10 @@
     </div>
     <div class="row">
         <div class="row">
-            <h3 class="container--subtitle"><a href="https://jodaz.xyz" title="Alcaldía de Bermúdez Website" class="l">Freelance Software Developer</a><small class="i"> — Dec. 2020, today</small></h3>
-            <h3 class="container--subtitle"><a href="https://somoscarupano.com.ve" title="Alcaldía de Bermúdez Website" class="l">Alcaldía de Bermudez</a><small class="i"> — Sept. 2019, today</small></h3>
-            <p>Head of Web Development & Digital Marketing <small class="i"> — Nov. 2020</small></p>
-            <p>Software Developer & Systems Maintainer<small class="i"> — Sept. 2019</small></p>
+            <h3 class="container--subtitle"><a href="https://jodaz.xyz" title="Alcaldía de Bermúdez Website" class="l">{{ __('Freelance Software Developer') }}</a><small class="i"> — {{ __('Dec') }}. 2020, {{ __('today') }}</small></h3>
+            <h3 class="container--subtitle"><a href="https://somoscarupano.com.ve" title="Alcaldía de Bermúdez Website" class="l">Alcaldía de Bermudez</a><small class="i"> — Sept. 2019, {{ __('today') }}</small></h3>
+            <p>{{ __('Head of Web Development & Digital Marketing') }} <small class="i"> — Nov. 2020</small></p>
+            <p>{{ __('Software Developer & Technical Support') }}<small class="i"> — Sept. 2019</small></p>
         </div>
     </div>
     <div class="row">
@@ -110,9 +110,9 @@
     <div class="row">
         <h2 class="container--title"><span class="ac s">#</span> {{ __("Education") }}</h2>
         <div class="row">
-            <h3 class="container--subtitle">Universidad de Oriente, ext. Carupano<small class="i"> — Sept. 2016, today?</small></h3>
+            <h3 class="container--subtitle">Universidad de Oriente, ext. Carupano<small class="i"> — Sept. 2016, {{ __('today') }}?</small></h3>
             <small class="i">* Maybe I dropped out of college, maybe I didn't. I don't know, college is a hard issue in Venezuela, and the Covid-19 didn't help neither.</small>
-            <h3 class="container--subtitle">freeCodeCamp, Full Stack Web Development<small class="i"> — Jan. 2017, Dec. 2018</small></h3>
+            <h3 class="container--subtitle">freeCodeCamp, {{ __('Full Stack Web Development') }}<small class="i"> — {{ __('Jan') }}. 2017, {{ __('Dec') }}. 2018</small></h3>
         </div>
     </div>
     <div class="row">

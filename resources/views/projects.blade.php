@@ -20,10 +20,10 @@
                 </div>
                 <div class="project-description">
                     <p>
-                        It is a financial and catastral platform for the Venezuelan tax administration system that maintains control of taxpayers, companies, vehicles and real state as well as their financial statement.
+                        {{ __('It is a financial and catastral platform for the Venezuelan tax administration system that maintains control of taxpayers, companies, vehicles and real state as well as their financial statement.') }}
                     </p>
                     <p>
-                        The pilot project is deployed in the Bermudez Municipality.
+                        {{ __('The pilot project is deployed in the Bermudez Municipality') }}.
                     </p>
                     <small class="s i"> (*) As of June, 2021 I am actively working on the development of the cadastral system, the financial reports funcionality and migrating from the old financial system.</small>
                     <p>
@@ -35,7 +35,7 @@
         <hr class="separator separator--dark"></hr>
     </div>
     <div class="row">
-        <p>Would like to see more? See my <a href="https://github.com/jodaz" class="l l--light">Github profile</a>.</p>
+        <p>{{ __('Would like to see more? See my') }} <a href="https://github.com/jodaz" class="l l--light">{{ __('Github profile') }}</a>.</p>
     </div>
 </section>
 <section class="flex container container--dark">
@@ -55,14 +55,14 @@
                     href="https://github.com/jodaz/ra-laravel-client"
                     class="link l--light s"
                 >ra-laravel-client</a>
-             A laravel focused JSON-API client for the React Admin Frammework.
+             {{ __('A laravel focused JSON-API client for the React Admin Frammework') }}.
             </li>
             <li>
                 <a
                     href="https://github.com/jodaz/scripts"
                     class="link l--light s"
                 >scripts</a>
-             Collection of scripts and utilities. Interesting stuff is right here!.
+             {{ __('Collection of scripts and utilities. Interesting stuff is right here!') }}.
             </li>
         </ul>
     </div>

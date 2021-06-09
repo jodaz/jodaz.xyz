@@ -1,4 +1,11 @@
 {
+  "Freelance Software Developer": "Desarrollador de Software Freelance",
+  "Dec": "Dic",
+  "Jan": "Ene",
+  "Full Stack Web Development": "Desarrollo Web Full Stack",
+  "Head of Web Development & Digital Marketing": "Jefe de la División de Desarrollo Web & Marketing Digital",
+  "Software Developer & Technical Support": "Desarrollador de Software & Soporte Técnico",
+  "today": "presente",
   "home": "inicio",
   "about": "sobre mi",
   "projects": "proyectos",
@@ -38,6 +45,12 @@
   "Desktop Apps": "Aplicaciones de escritorio",
   "Systems, Languages and Frammeworks": "Sistemas, lenguajes y frammeworks",
   "As an employee I'm currently working with local organizations of the region building the software infrastructure of the future, but I also do freelance and remote work for national companies and clients overseas.": "Como empleado, actualmente trabajo con organizaciones locales de la región construyendo la infraestructura de software del futuro, pero también realizo trabajo autónomo y remoto para empresas nacionales y clientes en el extranjero.",
-  "Overtime, I had to build some stuff to customize frameworks or just make my job a lot more easier and quicker. Here is some of my best repositories": "Con el tiempo, tuve que construir algunas cosas para personalizar marcos o simplemente hacer mi trabajo mucho más fácil y rápido. Estos son algunos de mis mejores repositorios",
-  "Single Taxpayer Service System": "Sistema de Atención Único al Contribuyente"
+  "Overtime, I had to build some stuff to customize frameworks or just make my job a lot more easier and quicker. Here is some of my best repositories": "Con el tiempo, tuve que construir algunas cosas para personalizar los frammeworks o simplemente hacer mi trabajo mucho más fácil y rápido. Estos son algunos de mis mejores repositorios",
+  "Single Taxpayer Service System": "Sistema de Atención Único al Contribuyente",
+  "It is a financial and catastral platform for the Venezuelan tax administration system that maintains control of taxpayers, companies, vehicles and real state as well as their financial statement.": "Es una plataforma financiera y catastral para el sistema de administración tributario venezolano, que mantiene el control de los contribuyentes, empresas, vehículos e inmuebles así como su estado de cuenta.",
+  "Would like to see more? See my": "¿Deseas ver más? Revisa mi",
+  "Github profile": "perfil de Github",
+  "A laravel focused JSON-API client for the React Admin Frammework": "Cliente API-Json enfocado en Laravel para ser usado en el frammework React Admin",
+  "The pilot project is deployed in the Bermudez Municipality": "El proyecto piloto se encuentra desplegado en el Municipio Bermúdez",
+  "Collection of scripts and utilities. Interesting stuff is right here!": "Colección de scripts y herramientas. ¡Hay muchas cosas intereses aquí!"
 }
