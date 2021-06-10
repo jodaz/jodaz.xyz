@@ -4,7 +4,7 @@
 <section class="flex container container--light">
     <div class="row">
         <div class="row project">
-            <div class="flex project-content">
+            <div class="flex fdcr project-content">
                 <div class="project-description">
                     <p>
                         {{ __('Hello! My name is Jesus Ordosgoitty and I am a software developer based in Carupano, Venezuela.') }}
