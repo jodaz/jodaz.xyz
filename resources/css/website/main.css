@@ -472,7 +472,7 @@ ul li {
     max-height: 100%;
   }
 .project-content {
-  flex-flow: column nowrap;
+  flex-flow: column-reverse nowrap;
 }
 .intro--container {
   flex-flow: column nowrap;
@@ -490,6 +490,9 @@ ul li {
   height: 5rem;
   width: 5rem;
   color: #3d5afe;
+}
+.photo-profile {
+  border-radius: 50%;
 }
 
 /* MEDIA QUERIES */
