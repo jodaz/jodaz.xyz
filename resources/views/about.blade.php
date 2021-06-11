@@ -55,7 +55,7 @@
             <ul>
                 <li>
                     <a href="https://ubuntu.com/" class="l l--light">Ubuntu</a>
-                    {{ __("and flavors are my preferred OS systems.") }}
+                    {{ __("and flavors are my preferred OS systems") }}.
                 </li>
                 <li>{{ __("Generally I deploy my apps with") }}
                     <a href="https://pm2.keymetrics.io/" class="l l--light">PM2</a>
@@ -71,7 +71,7 @@
                 <li>{{ __("I implement") }} <a href="https://www.python.org/" class="l l--light">Python</a>,
                 <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" class="l l--light">Bash</a> {{ __("and") }}
                 <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript" class="l l--light">Javascript</a>
-                    {{ __("for task automation, utilities and migration tools.") }}
+                    {{ __("for task automation, utilities and migration tools") }}.
                 </li>
                 <li>{{ __("As backend frammeworks") }}, <a href="https://laravel.com/" class="l l--light">Laravel</a> {{ __("and") }}
                     <a href="https://expressjs.com/" class="l l--light">Express</a> /
@@ -80,16 +80,16 @@
                     <a href="https://www.postgresql.org/" class="l l--light">PostgreSQL</a>,
                     <a href="https://www.mongodb.com" class="l l--light">MongoDB</a> {{ __("and") }}
                     <a href="https://www.mysql.com/" class="l l--light">MySQL</a>
-                    {{ __("are my prefered database management systems.") }}
+                    {{ __("are my prefered database management systems") }}.
                 </li>
                 <li>{{ __("I found") }}
                     <a href="http://knexjs.org/" class="l l--light">Knex.js</a>
-                    {{ __("is a very useful library for upgrading or changing a database.") }}
+                    {{ __("is a very useful library for upgrading or changing a database") }}.
                 </li>
                 <li>{{ __("Finally") }},
                     <a href="https://reactjs.org/" class="l l--light">React.js</a>
                     {{ __("and") }} <a href="https://marmelab.com/react-admin/" class="l l--light">React Admin</a>
-                    {{ __("are my goto libraries for building user interfaces.") }}
+                    {{ __("are my goto libraries for building user interfaces") }}.
                 </li>
                 <li>{{ __("Should I mention I like") }}
                     <a href="https://redux.js.org/" class="l l--light">Redux</a> / <a href="https://redux-saga.js.org/" class="l l--light">ReduxSaga</a>,
@@ -105,9 +105,9 @@
         <div class="row">
             <h3>{{ __("Desktop Apps") }}</h3>
             <ul>
-                <li>Main browser: <a href="https://brave.com" class="l l--light">Brave</a>- Best chrome without Google.</li>
-                <li>Secondary browser: <a href="https://www.chromium.org" class="l l--light">Chromium</a> - Second best chrome without Google.</li>
-                <li>Default search engine: Google. </li>
+                <li>{{ __("Main browser") }}: <a href="https://brave.com" class="l l--light">Brave</a>- {{ __("Best chrome without Google") }}.</li>
+                <li>{{ __("Secondary browser") }}: <a href="https://www.chromium.org" class="l l--light">Chromium</a> - {{ __("Second best chrome without Google") }}.</li>
+                <li>{{ __("Default search engine") }}: Google.</li>
             </ul>
         </div>
     </div>
@@ -120,15 +120,9 @@
         <h2 class="container--title"><span class="ac s">#</span> {{ __("Education") }}</h2>
         <div class="row">
             <h3 class="container--subtitle">Universidad de Oriente, ext. Carupano<small class="i"> — Sept. 2016, {{ __('today') }}?</small></h3>
-            <small class="i">* Maybe I dropped out of college, maybe I didn't. I don't know, college is a hard issue in Venezuela, and the Covid-19 didn't help neither.</small>
+            <small class="i">* {{ __("Maybe I dropped out of college, maybe I didn't. I am not sure, but since the Covid-19 pandemic, work is more important for me right now") }}.</small>
             <h3 class="container--subtitle">freeCodeCamp, {{ __('Full Stack Web Development') }}<small class="i"> — {{ __('Jan') }}. 2017, {{ __('Dec') }}. 2018</small></h3>
         </div>
-    </div>
-    <div class="row">
-        <h2 class="container--title"><span class="ac s">#</span> {{ __("Interests") }}</h2>
-    </div>
-    <div class="row">
-
     </div>
 </section>
 @endsection
