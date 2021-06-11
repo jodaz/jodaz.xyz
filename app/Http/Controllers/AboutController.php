@@ -4,11 +4,27 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App;
 use Artesaos\SEOTools\Facades\SEOMeta;
 use Artesaos\SEOTools\Facades\OpenGraph;
 
 class AboutController extends Controller
 {
+    protected $translations = [
+        'es' => [
+            'description' => '¡Hola! soy Jesús Ordosgoitty, un desarrollador full-stack de Venezuela.',
+            'landingTitle' => 'Sobre mi',
+            'landingQuote' => "\"Cambiar o perecer, no hay otra opción.\"",
+            'title' => "Sobre mi · Jesus Ordosgoitty",
+        ],
+        'en' => [
+            'description' => 'Hi! I am Jesus Ordosgoitty, a full-stack software developer from Venezuela',
+            "title" => "About · Jesus Ordosgoitty",
+            'landingTitle' => 'About me',
+            'landingQuote' => "\"To change or to perish, there is no other option.\""
+        ]
+    ];
+
     /**
      * Handle the incoming request.
      *
@@ -17,17 +33,17 @@ class AboutController extends Controller
      */
     public function __invoke(Request $request)
     {
-        SEOMeta::setTitle('About · Jesus Ordosgoitty');
-        SEOMeta::setDescription("Hi!, my name is Jesus Ordosgoitty, a 98 born guy full-stack software developer from Venezuela");
-
-        OpenGraph::setDescription("Hi!, my name is Jesus Ordosgoitty, a 98 born guy full-stack software developer from Venezuela");
-        OpenGraph::setTitle('About · Jesus Ordosgoitty');
-        OpenGraph::setSiteName('About · Jesus Ordosgoitty');
+        $locale = App::getLocale();
+        SEOMeta::setTitle($this->translations[$locale]['title']);
+        SEOMeta::setDescription($this->translations[$locale]['description']);
+        OpenGraph::setDescription($this->translations[$locale]['description']);
+        OpenGraph::setTitle($this->translations[$locale]['title']);
+        OpenGraph::setTitle($this->translations[$locale]['title']);
 
         return view('about', [
             'landingPhoto' => 'assets/img/home.jpeg',
-            'intro' => 'About me',
-            'brief' => "\"To change or to perish, there is no other option.\""
+            'intro' => $this->translations[$locale]['landingTitle'],
+            'brief' => $this->translations[$locale]['landingQuote']
         ]);
     }
 }

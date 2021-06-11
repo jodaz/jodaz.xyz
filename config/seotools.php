@@ -40,7 +40,7 @@ return [
             'description'  => "Full-Stack Software Developer based in Venezuela | React.js, Laravel, Node.js, Express.js, MongoDB, PostgreSQL and more",
             'url'         => null, // Set null for using Url::current(), set false to total remove
             'type'        => false,
-            'site_name'   => 'Jesus Ordosgoitty · Software Developer',
+            'site_name'   => 'Jesus Ordosgoitty · Jodaz',
             'images'      => [],
         ],
     ],
