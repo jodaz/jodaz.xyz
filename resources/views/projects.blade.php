@@ -25,9 +25,9 @@
                     <p>
                         {{ __('The pilot project is deployed in the Bermudez Municipality') }}.
                     </p>
-                    <small class="s i"> (*) As of June, 2021 I am actively working on the development of the cadastral system, the financial reports funcionality and migrating from the old financial system.</small>
+                    <small class="s i"> (*) {{ __('As of June, 2021 I am actively working on the development of the cadastral system, the financial reports funcionality and migrating from the old financial system') }}.</small>
                     <p>
-                        <span class="s">Technologies</span>: React.js (Typescript), Laravel, PostgreSQL.
+                        <span class="s">{{ __('Technologies') }}</span>: React.js (Typescript), Laravel, PostgreSQL.
                     </p>
                 </div>
             </div>
