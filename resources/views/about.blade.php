@@ -3,28 +3,37 @@
 @section('content')
 <section class="flex container container--light">
     <div class="row">
-        <p>
-            {{ __('Hello! My name is Jesus Ordosgoitty and I am a software developer based in Carupano, Venezuela.') }}
-        </p>
-        <p>
-        {{ __("I love to fix problems, as well as making things pretty and easy to use through development and coding. Also I can't stop learning new things; the more, the better.") }}
-        </p>
-        <p>
-            {{ __("Want to see a downloadable curriculum? Check the versions") }}
-            <a
-                 href="{{ asset('assets/files/cv-en.pdf') }}"
-                 title="English CV"
-                 class="l ac"
-                 target="_blank"
-            >{{ __("English") }}</a>
-            {{ __("or") }}
-            <a
-                href="{{ asset('assets/files/cv-es.pdf') }}"
-                title="English CV"
-                class="l ac"
-                target="_blank"
-            >{{ __("Spanish") }}</a>.
-        </p>
+        <div class="row project">
+            <div class="flex fdcr project-content">
+                <div class="project-description">
+                    <p>
+                        {{ __('Hello! My name is Jesus Ordosgoitty and I am a software developer based in Carupano, Venezuela.') }}
+                    </p>
+                    <p>
+                    {{ __("I love to fix problems, as well as making things pretty and easy to use through development and coding. Also I can't stop learning new things; the more, the better.") }}
+                    </p>
+                    <p>
+                        {{ __("Want to see a downloadable curriculum? Check the versions") }}
+                        <a
+                            href="{{ asset('assets/files/cv-en.pdf') }}"
+                            title="English CV"
+                            class="l ac"
+                            target="_blank"
+                        >{{ __("English") }}</a>
+                        {{ __("or") }}
+                        <a
+                            href="{{ asset('assets/files/cv-es.pdf') }}"
+                            title="English CV"
+                            class="l ac"
+                            target="_blank"
+                        >{{ __("Spanish") }}</a>.
+                    </p>
+                </div>
+                <div class="flex jc alc fdc project-image">
+                    <img src="{{ asset('assets/img/photo.jpeg') }}" class="photo-profile" alt="Jesús Ordosgoitty" />
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 <section class="flex container container--primary">

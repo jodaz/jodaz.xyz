@@ -14,7 +14,7 @@
                     {{ __('Single Taxpayer Service System') }}
                 </p>
             </div>
-            <div class="flex project-content">
+            <div class="flex fdc project-content">
                 <div class="flex jc alc fdc project-image">
                     <img src="{{ asset('assets/img/sauco.png') }}" alt="Sauco" />
                 </div>

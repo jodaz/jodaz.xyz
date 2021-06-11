@@ -1,6 +1,7 @@
 const button = document.getElementById('button');
 const menu = document.getElementById('menu');
 const navbar = document.getElementById('header');
+const rootContainer = document.getElementById('articles');
 
 window.onscroll = function() {
   "use strict";
@@ -47,41 +48,42 @@ async function gql(query, variables={}) {
   return data.json();
 }
 
-gql(GET_USER_ARTICLES, { page: 0 })
-  .then(res => {
-    const articles = res.data.user.publication.posts;
-    const rootContainer = document.getElementById('articles');
-    const articlesTag = document.getElementById('article-title');
-    const blogButton = document.getElementById('read-more');
-    const articlesLoader = document.getElementById('writings-loader');
+if (rootContainer) {
+  gql(GET_USER_ARTICLES, { page: 0 })
+    .then(res => {
+      const articles = res.data.user.publication.posts;
+      const articlesTag = document.getElementById('article-title');
+      const blogButton = document.getElementById('read-more');
+      const articlesLoader = document.getElementById('writings-loader');
 
-    articles.slice(0, 2).reverse().forEach(article => {
-      // Container
-      let container = document.createElement('div');
-      container.className = 'writings-post';
-      // Title
-      let link = document.createElement('a');
-      let title = document.createElement('h3');
-      title.innerText = article.title;
-      title.className = 'l';
-      link.href = `https://blog.jodaz.xyz/${article.slug}`;
-      link.className = 'l';
-      link.target = '_blank';
+      articles.slice(0, 2).reverse().forEach(article => {
+        // Container
+        let container = document.createElement('div');
+        container.className = 'writings-post';
+        // Title
+        let link = document.createElement('a');
+        let title = document.createElement('h3');
+        title.innerText = article.title;
+        title.className = 'l';
+        link.href = `https://blog.jodaz.xyz/${article.slug}`;
+        link.className = 'l';
+        link.target = '_blank';
 
-      link.appendChild(title); // Append title to link
-      // Brief
-      let brief = document.createElement('p');
-      brief.innerText = article.brief;
-      brief.className = 'container-subtitle post-summary';
+        link.appendChild(title); // Append title to link
+        // Brief
+        let brief = document.createElement('p');
+        brief.innerText = article.brief;
+        brief.className = 'container-subtitle post-summary';
 
-      container.appendChild(link);
-      container.appendChild(brief);
+        container.appendChild(link);
+        container.appendChild(brief);
 
-      rootContainer.appendChild(container);
+        rootContainer.appendChild(container);
+      });
+
+      rootContainer.className = 'flex container';
+      blogButton.className = "flex row jc";
+      articlesTag.className = 'row'
+      articlesLoader.className = 'hide';
     });
-
-    rootContainer.className = 'flex container';
-    blogButton.className = "flex row jc";
-    articlesTag.className = 'row'
-    articlesLoader.className = 'hide';
-  });
+}
