@@ -49,8 +49,8 @@ body {
     color: var(--text);
   }
   .container--dark {
-    background-color: var(--dark-primary-color);
-    color: var(--text);
+    background-color: var(--dark-primary-color) !important;
+    color: var(--text) !important;
   }
     .container--light .container-title::selection,
     .container--light .container-subtitle::selection {
