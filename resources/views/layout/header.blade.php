@@ -12,11 +12,11 @@
             <a class="header-navlink" href="{{ route('about') }}">
                 {{ __('about') }}
             </a>
-            <a class="header-navlink" href="{{ route('projects') }}">
-                {{ __('projects') }}
+            <a class="header-navlink" href="{{ route('works') }}">
+                {{ __('works') }}
             </a>
             <a class="header-navlink" href="https://blog.jodaz.xyz/" target="_blank">
-                {{ __('writings') }}
+                {{ __('blog') }}
             </a>
             <div class="flex aic lang--container">
                 @foreach (language()->allowed() as $code => $name)

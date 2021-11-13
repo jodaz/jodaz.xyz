@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
-use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\WorkController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +21,6 @@ Route::group(['middleware' => 'language'],  function () {
         ->name('home');
     Route::get('about', AboutController::class)
         ->name('about');
-    Route::get('projects', ProjectController::class)
-        ->name('projects');
+    Route::get('works', WorkController::class)
+        ->name('works');
 });

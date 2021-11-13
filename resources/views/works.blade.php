@@ -39,8 +39,22 @@
     </div>
 </section>
 <section class="flex container container--dark">
-    <div class="row tc">
-        <h2 class="q">{{ __('In every new venture, time must be our unit of account.') }}</h2>
+    <div class="row">
+        <h2 class="container-title"><span class="ac s">#</span>
+            {{ __('Trusted by') }}
+        </h2>
+    </div>
+    <div class="row flex clients">
+        <div class="flex jc alc fdc">
+            <a href="https://alcaldiabermudez.com.ve" title="Alcaldía de Bermúdez" class="l" target="_blank">
+                <img src="{{ asset('assets/img/bermudez_logo.webp') }}" alt="Jesús Ordosgoitty" height="200px" width="250px"/>
+            </a>
+        </div>
+        <div class="flex jc alc fdc">
+            <a href="https://alaxatech.com/" title="Alaxatech" class="l" target="_blank">
+                <img src="{{ asset('assets/img/alaxatech.png') }}" alt="Jesús Ordosgoitty" />
+            </a>
+        </div>
     </div>
 </section>
 <section class="flex container container--light">
@@ -63,6 +77,13 @@
                     class="link l--light s"
                 >scripts</a>
              {{ __('Collection of scripts and utilities. Interesting stuff is right here!') }}.
+            </li>
+            <li>
+                <a
+                    href="https://github.com/jodaz/file-provider"
+                    class="link l--light s"
+                >file-provider</a>
+             {{ __('An api provider for making file-uploads easier using hooks.') }}.
             </li>
         </ul>
     </div>

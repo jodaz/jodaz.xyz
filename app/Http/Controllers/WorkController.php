@@ -8,7 +8,7 @@ use App;
 use Artesaos\SEOTools\Facades\SEOMeta;
 use Artesaos\SEOTools\Facades\OpenGraph;
 
-class ProjectController extends Controller
+class WorkController extends Controller
 {
     protected $translations = [
         'es' => [
@@ -39,7 +39,7 @@ class ProjectController extends Controller
         OpenGraph::setDescription($this->translations[$locale]['description']);
         OpenGraph::setTitle($this->translations[$locale]['title']);
 
-        return view('projects', [
+        return view('works', [
             'landingPhoto' => 'assets/img/projects2.jpg',
             'intro' => $this->translations[$locale]['landingTitle'],
             'brief' => $this->translations[$locale]['landingQuote']

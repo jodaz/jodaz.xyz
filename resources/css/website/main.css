@@ -494,6 +494,14 @@ ul li {
 .photo-profile {
   border-radius: 50%;
 }
+.clients {
+  height: 20rem;
+  justify-content: center;
+  flex-direction: column;
+}
+  .clients > div {
+    margin: 1rem;
+  }
 
 /* MEDIA QUERIES */
 @media (min-width: 600px) {
@@ -559,6 +567,11 @@ ul li {
   .credits {
     letter-spacing: 1px;
     font-size: 0.9rem;
+  }
+  .clients {
+    height: 15rem;
+    flex-direction: inherit;
+    justify-content: space-around;
   }
 }
 @media (min-width: 945px) {

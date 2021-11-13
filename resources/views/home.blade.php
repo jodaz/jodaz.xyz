@@ -45,7 +45,7 @@
     </div>
     <hr class="separator separator--light"></hr>
     <div class="flex row jc">
-        <p>{{ __('Be sure to have a closer look at my') }} <a href="{{ route('projects') }}" title="Projects" class="l ac">{{ __('work') }}</a> {{ __('or get to know more about my') }} <a href="{{ route('about') }}" class="l ac" title="About me">{{ __('interests') }}</a>.</p>
+        <p>{{ __('Be sure to have a closer look at my') }} <a href="{{ route('works') }}" title="Projects" class="l ac">{{ __('work') }}</a> {{ __('or get to know more about my') }} <a href="{{ route('about') }}" class="l ac" title="About me">{{ __('interests') }}</a>.</p>
     </div>
 </section>
 <section class="flex container container--primary jc" id="writings">
