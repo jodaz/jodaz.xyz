@@ -33,7 +33,7 @@ class WorkController extends Controller
      */
     public function __invoke(Request $request)
     {
-        $locale = App::getLocale();
+        $locale = App::getLocale() ? App::getLocale() : 'en';
         SEOMeta::setTitle($this->translations[$locale]['title']);
         SEOMeta::setDescription($this->translations[$locale]['description']);
         OpenGraph::setDescription($this->translations[$locale]['description']);

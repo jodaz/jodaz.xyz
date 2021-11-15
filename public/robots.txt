@@ -1,2 +1,7 @@
 User-agent: *
-Disallow:
+Disallow: /languages/en/back
+Disallow: /languages/es/back
+Disallow: /languages/0/back
+Disallow: /languages/0/back
+Disallow: /assets/files/cv-en.pdf
+Disallow: /assets/files/cv-es.pdf
