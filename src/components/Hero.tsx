@@ -1,4 +1,5 @@
 import React from "react";
+import { Image } from "./Image";
 
 export default function Hero() {
     return (
@@ -12,7 +13,7 @@ export default function Hero() {
                     about software engineering.
                 </p>
             </div>
-            <img
+            <Image
                 src="/images/pic.jpg"
                 alt="Jesus Ordosgoitty"
                 className="rounded-full w-40 h-40 object-cover border-4 border-gray-700 shadow-lg"
