@@ -27,7 +27,7 @@ export const Image: React.FC<ImageProps> = ({
     useNextImageInDevelopment,
 }) => {
     const shouldRenderNextImage =
-        process.env.NODE_ENV === "production" ||
+        process.env.NODE_ENV === "development" ||
         Boolean(useNextImageInDevelopment);
 
     const plugins = React.useMemo(() => {
@@ -37,8 +37,8 @@ export const Image: React.FC<ImageProps> = ({
         plugins.push(
             lazyload({ rootMargin: "10px 20px 10px 30px", threshold: 0.1 })
         );
-        plugins.push(cldPlaceholder({ mode: "blur" }));
         plugins.push(responsive({ steps: [600, 800, 1000, 1400] }));
+        plugins.push(cldPlaceholder({ mode: "blur" }));
         return plugins;
     }, [shouldRenderNextImage]);
 
